@@ -1,0 +1,217 @@
+@charset utf-8;
+
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+	margin:0;	
+	border:0;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+body{
+	font-family:HelveticaNeue,DroidSans,Sans-serif,Helvetica;
+	color:#676767;	
+}
+
+nav ul, li{
+	list-style:none;
+}
+
+a{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	text-decoration:none;
+	vertical-align:baseline;	
+	background:transparent;
+	color:#333333;
+}
+
+html,body {	
+	height:100%;
+}
+
+header{
+	width:100%;
+	position:fixed;		
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+header section{
+	display:-webkit-flex;
+	display:fixed;
+	justify-content:space-around;
+	padding:0px;
+	margin:0 auto;	
+	text-align:center;
+}
+
+#main_area1{
+	height:75px;
+}
+
+#main_area2{
+	background-image:url('../images/Decipher_V3-1_02.jpg');
+	background-position:right top;
+	background-repeat:no-repeat;	
+	background-size:100%;
+	text-align:center;
+	min-width:940px;
+	min-height:470px;	
+}
+
+#top_main_title{	
+	max-width:100%;			
+	padding:6% 0 0 0;	
+}
+
+#top_main_title img{		
+	max-width:100%;
+}
+
+#top_main_btn_area{
+	max-width:100%;
+	padding:3% 0 0 0;
+}
+
+#main_area3{	
+	padding:0px;
+	margin:0px;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;
+}
+
+#main_area3 img{
+	max-width:100%;	
+}
+
+#main_area4{	
+	padding:0px;
+	margin:0px;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;
+	background-color:#f8f8f8;
+}
+
+#main_area4 img{
+	max-width:100%;	
+}
+
+#main_area5{	
+	padding:0px;
+	margin:0px;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;	
+}
+
+#main_area5 img{
+	max-width:100%;	
+}
+
+#main_area6{
+	display:-webkit-flex;
+	display:fixed;
+	justify-content:space-around;
+	padding:0px;
+	margin:0 auto;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;	
+}
+
+.thumbnail_td{
+	vertical-align:top;	
+}
+
+.speaker_td_space{
+	width:86px;
+}
+
+.speaker_tr_space
+{
+	height:69px;
+}
+
+#main_area7{	
+	padding:0px;
+	margin:0px;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;	
+}
+
+#main_area7 img{
+	max-width:100%;	
+}
+
+#main_area8{
+	display:-webkit-flex;
+	display:fixed;
+	justify-content:space-around;
+	padding:0px;
+	margin:0 auto;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;
+	background-color:#191a36;
+}
+
+#main_area9{
+	display:-webkit-flex;
+	display:fixed;
+	justify-content:space-around;
+	padding:0px;
+	margin:0 auto;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;
+	background-color:#416e8d;
+}
+
+#main_area10{	
+	padding:0px;
+	margin:0px;	
+	text-align:center;
+	line-height:0px;
+	min-width:940px;	
+}
+
+#main_area10 img{
+	max-width:100%;	
+}
+
+@media all and (max-width:1920px){
+	#main_area2{
+		background-image:url('../images/Decipher_V3-1_02.jpg');
+		background-position:right top;
+		background-repeat:no-repeat;	
+		background-size:100%;
+		text-align:center;
+		min-width:940px;
+		min-height:200px;	
+	}
+
+	#top_main_title{
+		/*border:2px #FFFFFF solid;*/
+		max-width:100%;			
+		padding:5% 0 0 0;	
+	}
+	
+	#top_main_title img{		
+		width:35%;
+	}
+
+	#top_main_btn_area{
+		max-width:100%;
+		padding:3% 0 7% 0;
+	}
+
+	#top_main_btn_area img{
+		width:13%;
+	}	
+}
